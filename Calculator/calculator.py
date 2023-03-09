@@ -15,7 +15,7 @@ cor5 = '#FFAB40' #Orange
 #Configuração da Calculador
 janela = Tk()
 janela.title ("Calculator")
-janela.geometry ("235x318")
+janela.geometry ("235x310")
 janela.config (bg=cor1)
 
 #Display
@@ -61,6 +61,26 @@ b_6.place(x=118, y=104)
 b_sub = Button (frame_keyboard, text="-", width=5, height=2, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_sub.place(x=177, y=104)
 
+b_1 = Button (frame_keyboard, text="1", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_1.place(x=0, y=156)
+
+b_2 = Button (frame_keyboard, text="2", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_2.place(x=59, y=156)
+
+b_3 = Button (frame_keyboard, text="3", width=5, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_3.place(x=118, y=156)
+
+b_adic = Button (frame_keyboard, text="+", width=5, height=2, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_adic.place(x=177, y=156)
+
+b_0 = Button (frame_keyboard, text="0", width=11, height=2, bg=cor4, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_0.place(x=0, y=208)
+
+b_comma = Button (frame_keyboard, text=",", width=5, height=2, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_comma.place(x=118, y=208)
+
+b_equal = Button (frame_keyboard, text="=", width=5, height=2, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
+b_equal.place(x=177, y=208)
 
 
 #Mantém a janela aberta
