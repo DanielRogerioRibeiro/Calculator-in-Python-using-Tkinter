@@ -15,7 +15,7 @@ cor5 = '#FFAB40' #Orange
 #Configuração da Calculador
 janela = Tk()
 janela.title ("Calculator")
-janela.geometry ("235x318")
+janela.geometry ("235x310")
 janela.config (bg=cor1)
 
 #Display
